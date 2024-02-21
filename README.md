@@ -18,6 +18,15 @@ TaskMe aids in achieving goals and maintaining focus on essential activities.
 - Add a new task by entering Title & Description.
 - Option to sort tasks alphabetically or by date added.
 - Lists tasks that have yet to be completed.
+- Items persist acrosss app sessions.
+
+ ## Architecture
+- MVVM architecture was chosen for the TaskMe app to enhance code organization, 
+  promote testability, support future scalability, and leverage native Android Jetpack support, 
+  thereby ensuring the app's long-term stability, maintainability, and user satisfaction.
+- 'com/example/taskme/data' will contain all Database related files
+- 'com/example/taskme/presentation' will contain all files made to handle how the data from the database gets displayed to the user.
+
 
 ## Technologies Used
 
